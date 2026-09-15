@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="LKC218 CRT profile card">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="LKC218 CRT profile card">
   <title>LKC218 — CRT profile card</title>
   <defs>
     <!-- phosphor glow -->
@@ -24,23 +24,38 @@
 
     <!-- typing clips (one per line) -->
     <clipPath id="c1">
-      <rect x="0" y="0" width="0" height="300">
-        <animate attributeName="width" from="0" to="920" dur="0.7s" begin="0.2s" fill="freeze"/>
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="0.6s" begin="0.2s" fill="freeze"/>
       </rect>
     </clipPath>
     <clipPath id="c2">
-      <rect x="0" y="0" width="0" height="300">
-        <animate attributeName="width" from="0" to="920" dur="1.1s" begin="1.0s" fill="freeze"/>
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="1.0s" begin="0.9s" fill="freeze"/>
       </rect>
     </clipPath>
     <clipPath id="c3">
-      <rect x="0" y="0" width="0" height="300">
-        <animate attributeName="width" from="0" to="920" dur="0.7s" begin="2.3s" fill="freeze"/>
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="0.45s" begin="2.0s" fill="freeze"/>
       </rect>
     </clipPath>
     <clipPath id="c4">
-      <rect x="0" y="0" width="0" height="300">
-        <animate attributeName="width" from="0" to="920" dur="1.6s" begin="3.1s" fill="freeze"/>
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="1.2s" begin="2.55s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c5">
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="0.45s" begin="3.9s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c6">
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="1.15s" begin="4.45s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c7">
+      <rect x="0" y="0" width="0" height="360">
+        <animate attributeName="width" from="0" to="920" dur="1.0s" begin="5.7s" fill="freeze"/>
       </rect>
     </clipPath>
 
@@ -52,11 +67,11 @@
   </defs>
 
   <!-- outer bezel -->
-  <rect width="960" height="300" rx="18" fill="url(#bezel)"/>
-  <rect x="10" y="10" width="940" height="280" rx="12" fill="#041208"/>
+  <rect width="960" height="360" rx="18" fill="url(#bezel)"/>
+  <rect x="10" y="10" width="940" height="340" rx="12" fill="#041208"/>
 
   <!-- screen glow bed -->
-  <rect x="10" y="10" width="940" height="280" rx="12" fill="#062010" fill-opacity="0.35"/>
+  <rect x="10" y="10" width="940" height="340" rx="12" fill="#062010" fill-opacity="0.35"/>
 
   <!-- top chrome bar -->
   <g fill="#3dff7a" fill-opacity="0.75" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="14">
@@ -67,54 +82,75 @@
 
   <!-- typed lines -->
   <g filter="url(#glow)" font-family="ui-monospace, Consolas, 'Courier New', monospace">
-    <!-- line 1: prompt -->
+    <!-- whoami prompt -->
     <g clip-path="url(#c1)">
-      <text x="32" y="96" fill="#3dff7a" font-size="22" font-weight="600">
+      <text x="32" y="88" fill="#3dff7a" font-size="20" font-weight="600">
         &gt; whoami
       </text>
     </g>
 
-    <!-- line 2: name (large) -->
+    <!-- ID -->
     <g clip-path="url(#c2)">
-      <text x="32" y="152" fill="#7dffb0" font-size="48" font-weight="700" letter-spacing="4">
+      <text x="32" y="140" fill="#7dffb0" font-size="46" font-weight="700" letter-spacing="4">
         LKC218
       </text>
     </g>
 
-    <!-- line 3: prompt -->
+    <!-- hello prompt -->
     <g clip-path="url(#c3)">
-      <text x="32" y="200" fill="#3dff7a" font-size="22" font-weight="600">
-        &gt; slogan
+      <text x="32" y="178" fill="#3dff7a" font-size="18" font-weight="600">
+        &gt; hello
       </text>
     </g>
 
-    <!-- line 4: slogan -->
+    <!-- playful welcome -->
     <g clip-path="url(#c4)">
-      <text x="32" y="238" fill="#3dff7a" font-size="20">
-        Building local-first tools. · 做本地优先的小工具
+      <text x="32" y="210" fill="#3dff7a" font-size="18">
+        Welcome, traveler. Coffee not detected.
+      </text>
+    </g>
+
+    <!-- motto prompt -->
+    <g clip-path="url(#c5)">
+      <text x="32" y="248" fill="#3dff7a" font-size="18" font-weight="600">
+        &gt; motto
+      </text>
+    </g>
+
+    <!-- quote EN -->
+    <g clip-path="url(#c6)">
+      <text x="32" y="280" fill="#b8ffc9" font-size="18" font-style="italic">
+        &quot;Stay hungry, stay foolish.&quot;
+      </text>
+    </g>
+
+    <!-- quote ZH -->
+    <g clip-path="url(#c7)">
+      <text x="32" y="310" fill="#3dff7a" font-size="17">
+        求知若饥，虚心若愚。 — Jobs
       </text>
     </g>
   </g>
 
   <!-- blinking cursor after type completes -->
   <g fill="#3dff7a">
-    <rect x="560" y="222" width="12" height="22" filter="url(#glow)">
-      <animate attributeName="opacity" values="1;1;0;0" dur="1s" begin="4.8s" repeatCount="indefinite"/>
+    <rect x="290" y="294" width="11" height="20" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1s" begin="6.8s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <!-- scanlines -->
-  <rect x="10" y="10" width="940" height="280" rx="12" fill="url(#scan)" pointer-events="none"/>
+  <rect x="10" y="10" width="940" height="340" rx="12" fill="url(#scan)" pointer-events="none"/>
 
   <!-- vignette -->
-  <rect x="10" y="10" width="940" height="280" rx="12" fill="url(#vig)" pointer-events="none"/>
+  <rect x="10" y="10" width="940" height="340" rx="12" fill="url(#vig)" pointer-events="none"/>
 
   <!-- subtle glass reflection -->
   <path d="M30 24 C 120 8, 260 8, 400 24 L 380 40 C 250 26, 140 26, 50 40 Z" fill="#ffffff" fill-opacity="0.03"/>
 
   <!-- bottom status -->
   <g fill="#1f8a42" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="12">
-    <text x="32" y="284">ready · green-scanlines · no-js svg</text>
-    <text x="800" y="284">v1.0.0</text>
+    <text x="32" y="344">ready · green-scanlines · no-js svg</text>
+    <text x="800" y="344">v1.1.0</text>
   </g>
 </svg>
